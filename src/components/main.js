@@ -15,6 +15,7 @@ const Layout = styled.main`
   }
 
   @media only screen and (min-width: 768px) {
+    padding: 4em;
     background-size: 70%;
     background: white url(${sea}) no-repeat right bottom;
 
@@ -48,6 +49,7 @@ const PortfolioButton = styled.button`
         font-size: 1.3em;
         padding: .8em 3em;
         width: 40%;
+        cursor: pointer;
   }
 `
 const Main = () => {

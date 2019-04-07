@@ -25,7 +25,7 @@ const Aside = styled.aside`
   @media only screen and (min-width: 768px) {
     background: #dce1f6;
     grid-template-columns: auto;
-    grid-template-rows: 35% auto;
+    grid-template-rows: 20% auto;
     padding: 0;
 
     #avatar {

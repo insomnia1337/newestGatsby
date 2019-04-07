@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1066.15" height="594.349" viewBox="0 0 1066.15 594.349">
-  <defs>
-    <filter id="Path_6" x="0" y="0" width="1066.15" height="594.349" filterUnits="userSpaceOnUse">
-      <feOffset dx="9" dy="7" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_6)">
-    <path id="Path_6-2" data-name="Path 6" d="M799.8,1061s222.314-162.535,407.8-159.9,330.182-6.577,380.17-147.332,87.453-228.891,145.333-239.415,88.82,0,88.82,0V1061Z" transform="translate(-786.27 -495.15)" fill="#ff00d5" stroke="#707070" stroke-width="1"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1022.119" height="546.655" viewBox="0 0 1022.119 546.655"><path d="M799.8,1061s222.314-162.535,407.8-159.9,330.182-6.577,380.17-147.332,95.456-188.5,148.46-214.358,85.693-25.058,85.693-25.058V1061Z" transform="translate(-799.805 -514.345)" fill="#ff00d5"/></svg>
