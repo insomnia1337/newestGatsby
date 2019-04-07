@@ -11,21 +11,3 @@
     top: 0;
     height: 100%;
 }
-
-@media only screen and (min-width: 768px) {
-  body {
-    display: grid;
-    grid-template-columns: 20% auto;
-    padding: 2em;
-  }
-  img {
-    display: none;
-  }
-  
-  aside {
-      background: #DCE1F6;
-      grid-template-columns: auto;
-      grid-template-rows: 20% auto;
-      padding: 0;
-  }
-}
