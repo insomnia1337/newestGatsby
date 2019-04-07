@@ -19,12 +19,24 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a00fb', endColorstr='#e600ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+
+
 @media only screen and (min-width: 768px) {
   body {
-    display: grid !important;
-    grid-template-columns: 20% auto !important;
     padding: 2em !important;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
   }
+  #___gatsby {
+       height: 100%;
+  }
+  div[role="group"][tabindex] {
+    display: grid;
+    grid-template-columns: 20% auto;
+    height: 100%;
+}
   
   img {
     display: none;
