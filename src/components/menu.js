@@ -5,8 +5,7 @@ import Nav from "../components/nav"
 
 const Aside = styled.aside`
   color: #fff;
-  display: grid;
-  grid-template-columns: auto 40px;
+  display: flex;
   padding: 2em;
 
   img {
@@ -15,6 +14,7 @@ const Aside = styled.aside`
   }
 
   figure {
+    flex-grow: 1;
     margin: 0;
 
     figcaption {
@@ -22,12 +22,10 @@ const Aside = styled.aside`
       font-weight: bold;
     }
   }
-  @media only screen and (min-width: 768px) {
+  /* @media only screen and (min-width: 768px) {
       background: #DCE1F6;
-        grid-template-columns: auto;
-        grid-template-rows: 20% auto;
         padding: 0;
-  }
+  } */
 `
 const Menu = () => {
   const [open, setOpen] = useState(false)
