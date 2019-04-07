@@ -7,7 +7,6 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
-  height: 100vh;
 }
 
 body {

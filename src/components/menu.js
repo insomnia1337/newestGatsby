@@ -15,7 +15,6 @@ const Aside = styled.aside`
   }
 
   figure {
-    flex-grow: 1;
     margin: 0;
 
     figcaption {
@@ -24,22 +23,22 @@ const Aside = styled.aside`
     }
   }
   @media only screen and (min-width: 768px) {
-        background: #DCE1F6;
-        grid-template-columns: auto;
-        grid-template-rows: 35% auto;
-        padding: 0;
+    background: #dce1f6;
+    grid-template-columns: auto;
+    grid-template-rows: 35% auto;
+    padding: 0;
 
-            #avatar {
-        border-radius: 50%;
-        background: #fff;
-        width: 50px;
-        height: 50px;
-        margin: 2em auto 1em auto;
+    #avatar {
+      border-radius: 50%;
+      background: #fff;
+      width: 50px;
+      height: 50px;
+      margin: 2em auto 1em auto;
     }
 
     figcaption {
-        text-align: center;
-        color: #000;
+      text-align: center;
+      color: #000;
     }
   }
 `
@@ -47,14 +46,14 @@ const Menu = () => {
   const [open, setOpen] = useState(false)
   const toggleOpen = () => setOpen(!open)
   return (
-      <Aside>
-        <figure>
-          <div id="avatar">Avatar</div>
-          <figcaption>Jan Kowalsky</figcaption>
-        </figure>
-        <img src={hamburger} onClick={toggleOpen}></img>
-        <Nav open={open} />
-      </Aside>
+    <Aside>
+      <figure>
+        <div id="avatar">Avatar</div>
+        <figcaption>Jan Kowalsky</figcaption>
+      </figure>
+      <img src={hamburger} onClick={toggleOpen} />
+      <Nav open={open} />
+    </Aside>
   )
 }
 
