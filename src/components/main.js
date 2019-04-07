@@ -18,6 +18,15 @@ const Layout = styled.main`
     padding: 4em;
     background-size: 70%;
     background: white url(${sea}) no-repeat bottom right;
+
+    h1 {
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
   }
 `
 
@@ -34,6 +43,12 @@ const PortfolioButton = styled.button`
   margin: 2em 0;
   border: 0;
   width: 100%;
+
+   @media only screen and (min-width: 768px) {
+      display: inline-block;
+        font-size: 1.3em;
+        padding: .8em 3em;
+  }
 `
 const Main = () => {
   return (

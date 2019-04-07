@@ -4,10 +4,10 @@ import Menu from '../components/menu'
 import Main from "../components/main"
 const GlobalStyle = createGlobalStyle`
 body, html {
-  height: calc(100% - 2em);
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
+  height: 100vh;
 }
 
 body {
