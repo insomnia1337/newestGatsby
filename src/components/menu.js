@@ -9,12 +9,6 @@ const Aside = styled.aside`
   grid-template-columns: auto 40px;
   padding: 2em;
 
-  @media only screen and (min-width: 768px) {
-    background: #DCE1F6;
-      grid-template-columns: auto !important;
-      grid-template-rows: 20% auto;
-      padding: 0;
-  }
   img {
     width: 40px;
     cursor: pointer;
@@ -27,6 +21,12 @@ const Aside = styled.aside`
       font-size: 1.3em;
       font-weight: bold;
     }
+  }
+  @media only screen and (min-width: 768px) {
+      background: #DCE1F6;
+        grid-template-columns: auto;
+        grid-template-rows: 20% auto;
+        padding: 0;
   }
 `
 const Menu = () => {
